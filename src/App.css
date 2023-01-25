@@ -1,0 +1,71 @@
+/* .app {
+	background-color: var();
+} */
+
+.dashboard-container {
+	display: flex;
+	height: 100vh;
+	width: 100%;
+}
+
+/* .dashboard-container > * {
+	flex-basis: 1fr 3fr 1fr;
+} */
+
+.dashboard-nav {
+	flex: 1;
+	background-color: red;
+	border: 15px solid black;
+}
+
+.dashboard-main {
+	display: flex;
+	flex-direction: column;
+	flex: 3.5;
+	background-color: green;
+	border: 15px solid purple;
+}
+
+.main-nav {
+	flex: 1.5;
+	background-color: gray;
+	border: 15px solid cyan;
+}
+
+.main-content {
+	flex: 3;
+	background-color: yellow;
+	border: 15px solid yellowgreen;
+}
+
+/* .dashboard-aside {
+	flex: 1;
+	background-color: blue;
+	border: 15px solid aqua;
+	
+} */
+
+/* .dashboard-header {
+	grid-area: header;
+	background-color: #0366d6;
+	color: white;
+	display: flex;
+	align-items: center;
+	padding: 0 20px;
+}
+
+
+.dashboard-nav a {
+	margin-right: 20px;
+}
+
+
+
+.dashboard-footer {
+	grid-area: footer;
+	background-color: #f6f8fa;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+} */

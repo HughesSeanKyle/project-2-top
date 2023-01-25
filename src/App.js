@@ -9,6 +9,9 @@ import {
 	FaCog,
 	FaQuestionCircle,
 	FaShieldAlt,
+	FaChevronLeft,
+	FaChevronRight,
+	FaCode,
 } from 'react-icons/fa';
 
 function App() {
@@ -16,63 +19,78 @@ function App() {
 		<>
 			<div className="dashboard-container">
 				{/* Sidenav - To be refactored and extracted to own component. nav links to be added to data structure and mapped. Link name + icon */}
-				<nav className="dashboard--side-nav">
-					<h3 className="side-nav-header">{'LOGO<><<'} Company Name</h3>
+				<nav className="dashboard-side-nav">
+					<div className="side-nav-logo">
+						<img
+							src="./niftyswap-low-resolution-logo-color-on-transparent-background.png"
+							alt="logo"
+							width="162px"
+						/>
+					</div>
+					<div className="divider">
+						<hr className="divider-style" />
+					</div>
 					<ul className="side-nav-link-items">
 						<li className="side-nav-container-item">
 							<h3>
 								{' '}
-								<FaHome /> Home{' '}
+								<FaHome className="item-icon" /> Home{' '}
 							</h3>
 						</li>
 						<li className="side-nav-container-item">
 							<h3>
 								{' '}
-								<FaUserCircle /> Profile{' '}
+								<FaUserCircle className="item-icon" /> Profile{' '}
 							</h3>
 						</li>
 						<li className="side-nav-container-item">
 							<h3>
 								{' '}
-								<FaEnvelope /> Messages{' '}
+								<FaEnvelope className="item-icon" /> Messages{' '}
 							</h3>
 						</li>
 						<li className="side-nav-container-item">
 							<h3>
 								{' '}
-								<FaHistory /> History{' '}
+								<FaHistory className="item-icon" /> History{' '}
 							</h3>
 						</li>
 						<li className="side-nav-container-item">
 							<h3>
 								{' '}
-								<FaFile /> Tasks{' '}
+								<FaFile className="item-icon" /> Tasks{' '}
 							</h3>
 						</li>
 						<li className="side-nav-container-item">
 							<h3>
 								{' '}
-								<FaUsers /> Community{' '}
+								<FaUsers className="item-icon" /> Community{' '}
+							</h3>
+						</li>
+						<div className="divider">
+							<hr className="divider-style" />
+						</div>
+						<li className="side-nav-container-item">
+							<h3>
+								{' '}
+								<FaCog className="item-icon" /> Settings{' '}
 							</h3>
 						</li>
 						<li className="side-nav-container-item">
 							<h3>
 								{' '}
-								<FaCog /> Settings{' '}
+								<FaQuestionCircle className="item-icon" /> Support{' '}
 							</h3>
 						</li>
 						<li className="side-nav-container-item">
 							<h3>
 								{' '}
-								<FaQuestionCircle /> Support{' '}
+								<FaShieldAlt className="item-icon" /> Privacy{' '}
 							</h3>
 						</li>
-						<li className="side-nav-container-item">
-							<h3>
-								{' '}
-								<FaShieldAlt /> Privacy{' '}
-							</h3>
-						</li>
+						<div className="divider">
+							<hr className="divider-style" />
+						</div>
 					</ul>
 				</nav>
 

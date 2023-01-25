@@ -1,4 +1,5 @@
 import './App.css';
+import { FaSearch } from 'react-icons/fa';
 import Sidebar from './components/Navigation/Sidebar';
 
 function App() {
@@ -11,11 +12,21 @@ function App() {
 				<main className="dashboard-main">
 					{/* Search bar to own comp,  */}
 					<div className="main-nav">
-						<div className="nav-container-search">
-							<div className="search-bar"></div>
-							<div className="widgets-bar"></div>
+						<div className="nav-container">
+							<div className="search-bar-container">
+								<div className="search-box">
+									{' '}
+									<FaSearch className="search-box-icon" />
+									<input
+										className="search-input"
+										type="text"
+										placeholder="Search..."
+									/>{' '}
+								</div>
+								<div class="notifications-box"></div>
+							</div>
+							<div className="widgets-bar-container"></div>
 						</div>
-						<div className="nav-container-profile"></div>
 					</div>
 
 					<div className="main-content">

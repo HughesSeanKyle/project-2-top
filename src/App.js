@@ -15,13 +15,14 @@ function App() {
 						<div className="nav-container">
 							<div className="search-bar-container">
 								<div className="search-box">
-									{' '}
-									<FaSearch className="search-box-icon" />
-									<input
-										className="search-input"
-										type="text"
-										placeholder="Search..."
-									/>{' '}
+									<div style={{ display: 'flex', 'align-items': 'center' }}>
+										<FaSearch className="search-box-icon" />
+										<input
+											className="search-input"
+											type="text"
+											placeholder="Search..."
+										/>
+									</div>
 								</div>
 								<div class="notifications-box"></div>
 							</div>

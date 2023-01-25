@@ -22,7 +22,6 @@
 .dashboard-side-nav {
 	flex: 1;
 	background-color: var(--light-blue);
-	border: 15px solid black;
 	overflow: auto;
 }
 
@@ -49,6 +48,10 @@
 
 .side-nav-link-items > li {
 	margin: 9px 9px;
+}
+
+.side-nav-link-items > li > h3 {
+	color: var(--light-text-color);
 }
 
 .item-icon {
@@ -120,4 +123,19 @@
 	justify-content: center;
 	align-items: center;
 	padding: 10px;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+	width: 10px;
+}
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+	background: #888;
+	border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+	background: #555;
 }

@@ -88,10 +88,10 @@ function App() {
 								<FaShieldAlt className="item-icon" /> Privacy{' '}
 							</h3>
 						</li>
-						<div className="divider">
-							<hr className="divider-style" />
-						</div>
 					</ul>
+					<div className="divider">
+						<hr className="divider-style" />
+					</div>
 				</nav>
 
 				{/* Main consists of two child comps. Main to be refacored and child comps as well */}

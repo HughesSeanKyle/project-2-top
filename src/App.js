@@ -9,7 +9,15 @@ function App() {
 
 				{/* Main consists of two child comps. Main to be refacored and child comps as well */}
 				<main className="dashboard-main">
-					<div className="main-nav"></div>
+					{/* Search bar to own comp,  */}
+					<div className="main-nav">
+						<div className="nav-container-search">
+							<div className="search-bar"></div>
+							<div className="widgets-bar"></div>
+						</div>
+						<div className="nav-container-profile"></div>
+					</div>
+
 					<div className="main-content">
 						<div className="content-layout">
 							<div className="layout-grid">

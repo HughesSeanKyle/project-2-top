@@ -18,7 +18,7 @@ import {
 function Sidebar() {
 	return (
 		<>
-			{/* Sidenav - To be refactored and extracted to own component. nav links to be added to data structure and mapped. Link name + icon */}
+			{/* Sidenav - To be refactored and extracted to own component (DONE). nav links to be added to data structure and mapped. Link name + icon */}
 			<nav className="dashboard-side-nav">
 				<div className="side-nav-logo">
 					<a href="#" target="_blank">

@@ -8,6 +8,11 @@
 4. font color for links `Done`
 5. Convert to links `Done`
 # Navbar
+- Todo
+1. Needs a box shadow only on the bottom border
+2. bg light 
+3. search input light gray 
+
 # Main
 ## Main Grid
 ### Grid Card

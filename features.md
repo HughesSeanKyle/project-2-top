@@ -2,6 +2,7 @@
 # Sidenav (Complete)
 - Todo
 1. Get logo for sidenav `Done` 
+Link => https://app.logo.com/dashboard/logo_f1c8dde2-d490-405e-a5cc-b907e6e25a40/your-logo-files
 2. Get logos for links `Done`
 - Get logos from react font awesome  
 3. Set design colors for font and bg `Done`

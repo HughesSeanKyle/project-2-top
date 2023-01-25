@@ -1,37 +1,82 @@
 import './App.css';
-
-/*
-Three main components needed here 
-1. Sidenav 
-2. Nav 
-- Icons in here can be amde in canva 
-3. layout component 
-
-- Targets 
-- 1. Setup layout inside main 
-  - Flex direction with two rows 
-- 2. Setup nav in main 
-  - Flexbox layout with two rows 
-- 3. Setup layout component "Home"
-  - parent two cols 
-    - Children 
-      - Your projects 
-      - Announcements and Trending 
-
-  - Mobile 
-    - Side menu to hamburger
-    - Your projects to one col 
-    - Announcements 
-      - Under your projects to one col 
-
-
-*/
+import {
+	FaHome,
+	FaUserCircle,
+	FaEnvelope,
+	FaHistory,
+	FaFile,
+	FaUsers,
+	FaCog,
+	FaQuestionCircle,
+	FaShieldAlt,
+} from 'react-icons/fa';
 
 function App() {
 	return (
 		<>
 			<div className="dashboard-container">
-				<nav className="dashboard--side-nav"></nav>
+				{/* Sidenav - To be refactored and extracted to own component. nav links to be added to data structure and mapped. Link name + icon */}
+				<nav className="dashboard--side-nav">
+					<h3 className="side-nav-header">{'LOGO<><<'} Company Name</h3>
+					<ul className="side-nav-link-items">
+						<li className="side-nav-container-item">
+							<h3>
+								{' '}
+								<FaHome /> Home{' '}
+							</h3>
+						</li>
+						<li className="side-nav-container-item">
+							<h3>
+								{' '}
+								<FaUserCircle /> Profile{' '}
+							</h3>
+						</li>
+						<li className="side-nav-container-item">
+							<h3>
+								{' '}
+								<FaEnvelope /> Messages{' '}
+							</h3>
+						</li>
+						<li className="side-nav-container-item">
+							<h3>
+								{' '}
+								<FaHistory /> History{' '}
+							</h3>
+						</li>
+						<li className="side-nav-container-item">
+							<h3>
+								{' '}
+								<FaFile /> Tasks{' '}
+							</h3>
+						</li>
+						<li className="side-nav-container-item">
+							<h3>
+								{' '}
+								<FaUsers /> Community{' '}
+							</h3>
+						</li>
+						<li className="side-nav-container-item">
+							<h3>
+								{' '}
+								<FaCog /> Settings{' '}
+							</h3>
+						</li>
+						<li className="side-nav-container-item">
+							<h3>
+								{' '}
+								<FaQuestionCircle /> Support{' '}
+							</h3>
+						</li>
+						<li className="side-nav-container-item">
+							<h3>
+								{' '}
+								<FaShieldAlt /> Privacy{' '}
+							</h3>
+						</li>
+					</ul>
+				</nav>
+
+				{/* Main consists of two child comps. Main to be refacored and child comps as well */}
 				<main className="dashboard-main">
 					<div className="main-nav"></div>
 					<div className="main-content">
@@ -58,6 +103,8 @@ function App() {
 							</aside>
 						</div>
 					</div>
+
+					{/* Branch to be created for footer. Refactored and to own comp */}
 					{/* <footer className="dashboard-footer">
 						<p>Copyright © 2023</p>
 					</footer> */}

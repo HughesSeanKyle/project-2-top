@@ -50,14 +50,17 @@
 	margin: 9px 9px;
 }
 
-.side-nav-link-items > li > h3 {
+.side-nav-link-items > li > a {
 	color: var(--light-text-color);
+	cursor: pointer;
+}
+
+.side-nav-link-items > li :hover {
+	color: var(--light-gray);
 }
 
 .item-icon {
 	margin-right: 18px;
-	/* height: 250px;
-	width: 250px; */
 }
 
 /* Main */
@@ -127,14 +130,14 @@
 
 /* Scrollbar */
 ::-webkit-scrollbar {
-	width: 10px;
+	width: 9px;
 }
 ::-webkit-scrollbar-track {
 	background: #f1f1f1;
 }
 ::-webkit-scrollbar-thumb {
 	background: #888;
-	border-radius: 10px;
+	border-radius: 90px;
 }
 ::-webkit-scrollbar-thumb:hover {
 	background: #555;

@@ -79,6 +79,29 @@
 	border: 15px solid cyan;
 }
 
+.nav-container-search {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	width: 100%;
+}
+
+.search-bar {
+	flex: 1;
+	background-color: darkgoldenrod;
+	height: 27px;
+}
+
+.widgets-bar {
+	flex: 1;
+	background-color: crimson;
+	height: 27px;
+}
+
+.nav-container-profile {
+	display: flex;
+}
+
 .main-content {
 	flex: 3;
 	background-color: yellow;

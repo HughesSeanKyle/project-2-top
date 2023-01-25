@@ -31,10 +31,33 @@ function App() {
 	return (
 		<>
 			<div className="dashboard-container">
-				<nav className="dashboard-nav"></nav>
+				<nav className="dashboard--side-nav"></nav>
 				<main className="dashboard-main">
 					<div className="main-nav"></div>
-					<div className="main-content"></div>
+					<div className="main-content">
+						<div className="content-layout">
+							<div className="layout-grid">
+								<h3 className="grid-heading">Your Projects</h3>
+								<div
+									className="grid-items"
+									// style={{ height: '720px', 'background-color': 'pink' }}
+								>
+									{/* The cards in this div should have it's own comp. It will be mapped, and should be resusable */}
+
+									<div className="grid-item-card"></div>
+									<div className="grid-item-card"></div>
+									<div className="grid-item-card"></div>
+									<div className="grid-item-card"></div>
+									<div className="grid-item-card"></div>
+									<div className="grid-item-card"></div>
+								</div>
+							</div>
+							<aside className="layout-aside">
+								<h3 className="aside-heading">Announcements</h3>
+								<h3 className="aside-heading">Trending</h3>
+							</aside>
+						</div>
+					</div>
 					{/* <footer className="dashboard-footer">
 						<p>Copyright © 2023</p>
 					</footer> */}

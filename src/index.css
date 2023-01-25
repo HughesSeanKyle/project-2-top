@@ -31,6 +31,8 @@
 	--dark-text-color: #040404;
 	--light-text-color: #f4fafd;
 
+	/* Theme font sizes and weight */
+
 	--max-width: 1100px;
 	--border-radius: 12px;
 	--font-mono: 'Roboto', sans-serif;

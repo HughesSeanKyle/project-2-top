@@ -22,13 +22,13 @@ function SearchBarContainer() {
 						</li>
 						<li className="notification-item">
 							<img
-								src="./niftyswap-assets/nft-one-prim-no-bg.png"
+								src="./niftyswap-assets/nft-one-prim-no-bg-trimmy.png"
 								alt="profile-pic"
-								width="162px"
+								width="50px"
 							/>
 						</li>
 						<li className="notification-item">
-							<h5 className="grid-heading">Morgan Oakley</h5>
+							<h4 className="grid-heading">Morgan Oakley</h4>
 						</li>
 					</ul>
 				</div>

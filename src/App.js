@@ -1,5 +1,7 @@
 import './App.css';
 import Sidebar from './components/Navigation/Sidebar';
+import SearchBarContainer from './components/Navigation/SearchBarContainer';
+import WidgetsBarContainer from './components/Navigation/WidgetsBarContainer';
 
 function App() {
 	return (
@@ -11,17 +13,16 @@ function App() {
 				<main className="dashboard-main">
 					{/* Search bar to own comp,  */}
 					<div className="main-nav">
-						<div className="nav-container-search">
-							<div className="search-bar"></div>
-							<div className="widgets-bar"></div>
+						<div className="nav-container">
+							<SearchBarContainer />
+							<WidgetsBarContainer />
 						</div>
-						<div className="nav-container-profile"></div>
 					</div>
 
 					<div className="main-content">
 						<div className="content-layout">
 							<div className="layout-grid">
-								<h3 className="grid-heading">Your Projects</h3>
+								<h3 className="grid-heading">Your Swaps</h3>
 								<div
 									className="grid-items"
 									// style={{ height: '720px', 'background-color': 'pink' }}

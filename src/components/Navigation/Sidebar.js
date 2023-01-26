@@ -9,9 +9,6 @@ import {
 	FaCog,
 	FaQuestionCircle,
 	FaShieldAlt,
-	FaChevronLeft,
-	FaChevronRight,
-	FaCode,
 	FaGithub,
 } from 'react-icons/fa';
 

@@ -28,7 +28,19 @@ function App() {
 										<h3>Morgan Oakley (@morgan)</h3>
 									</div>
 								</div>
-								<div class="action-btns-box"></div>
+								<div class="action-btns-box">
+									<ul class="button-list">
+										<li>
+											<button>Button 1</button>
+										</li>
+										<li>
+											<button>Button 2</button>
+										</li>
+										<li>
+											<button>Button 3</button>
+										</li>
+									</ul>
+								</div>
 							</div>
 						</div>
 					</div>

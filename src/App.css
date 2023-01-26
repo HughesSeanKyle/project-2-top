@@ -145,6 +145,8 @@
 
 /* Main__Widgets and Buttons */
 .widgets-bar-container {
+	display: flex;
+	align-items: center;
 	flex: 1;
 	background-color: crimson;
 	height: 27px;

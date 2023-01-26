@@ -1,6 +1,6 @@
 import './App.css';
-import { FaSearch, FaBell } from 'react-icons/fa';
 import Sidebar from './components/Navigation/Sidebar';
+import SearchBarContainer from './components/Navigation/SearchBarContainer';
 
 function App() {
 	return (
@@ -13,36 +13,25 @@ function App() {
 					{/* Search bar to own comp,  */}
 					<div className="main-nav">
 						<div className="nav-container">
-							<div className="search-bar-container">
-								<div className="search-box">
-									<div>
-										<FaSearch className="search-box-icon" />
-										<input
-											className="search-input"
-											type="text"
-											placeholder="Search..."
-										/>
-									</div>
-								</div>
-								<div class="notifications-box">
-									<ul className="notification-items-container">
-										<li className="notification-item">
-											<FaBell className="notification-box-icon" />
-										</li>
-										<li className="notification-item">
-											<img
-												src="./niftyswap-assets/nft-one-prim-no-bg.png"
-												alt="profile-pic"
-												width="162px"
-											/>
-										</li>
-										<li className="notification-item">
-											<h3 className="grid-heading">Morgan Oakley</h3>
-										</li>
-									</ul>
-								</div>
+							<SearchBarContainer />
+							<div className="widgets-bar-container">
+								<div
+									className="profile-info-box"
+									style={{
+										'background-color': 'red',
+										height: '100%',
+										flex: '2.1',
+									}}
+								></div>
+								<div
+									class="action-btns-box"
+									style={{
+										'background-color': 'blue',
+										height: '100%',
+										flex: '1.9',
+									}}
+								></div>
 							</div>
-							<div className="widgets-bar-container"></div>
 						</div>
 					</div>
 

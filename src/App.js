@@ -29,8 +29,16 @@ function App() {
 										<li className="notification-item">
 											<FaBell className="notification-box-icon" />
 										</li>
-										<li className="notification-item">User p img</li>
-										<li className="notification-item">Username</li>
+										<li className="notification-item">
+											<img
+												src="./niftyswap-assets/nft-one-prim-no-bg.png"
+												alt="profile-pic"
+												width="162px"
+											/>
+										</li>
+										<li className="notification-item">
+											<h3 className="grid-heading">Morgan Oakley</h3>
+										</li>
 									</ul>
 								</div>
 							</div>

@@ -28,7 +28,7 @@ function SearchBarContainer() {
 							/>
 						</li>
 						<li className="notification-item">
-							<h3 className="grid-heading">Morgan Oakley</h3>
+							<h5 className="grid-heading">Morgan Oakley</h5>
 						</li>
 					</ul>
 				</div>

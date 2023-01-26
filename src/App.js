@@ -1,5 +1,5 @@
 import './App.css';
-import { FaSearch } from 'react-icons/fa';
+import { FaSearch, FaBell } from 'react-icons/fa';
 import Sidebar from './components/Navigation/Sidebar';
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
 						<div className="nav-container">
 							<div className="search-bar-container">
 								<div className="search-box">
-									<div style={{ display: 'flex', 'align-items': 'center' }}>
+									<div>
 										<FaSearch className="search-box-icon" />
 										<input
 											className="search-input"
@@ -24,7 +24,15 @@ function App() {
 										/>
 									</div>
 								</div>
-								<div class="notifications-box"></div>
+								<div class="notifications-box">
+									<ul className="notification-items-container">
+										<li className="notification-item">
+											<FaBell className="notification-box-icon" />
+										</li>
+										<li className="notification-item">User p img</li>
+										<li className="notification-item">Username</li>
+									</ul>
+								</div>
 							</div>
 							<div className="widgets-bar-container"></div>
 						</div>

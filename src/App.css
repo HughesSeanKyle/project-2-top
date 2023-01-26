@@ -43,7 +43,6 @@
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-	list-style-type: none;
 	padding: 0px 18px;
 }
 
@@ -102,6 +101,11 @@
 	flex: 2.3;
 }
 
+.search-box > div {
+	display: flex;
+	align-items: center;
+}
+
 .search-box-icon {
 	padding-top: 5px;
 	margin-right: 9px;
@@ -119,6 +123,29 @@
 	flex: 1.7;
 	background-color: darkblue;
 	height: 100%;
+}
+
+.notification-items-container {
+	display: flex;
+	align-items: center;
+	height: 100%;
+}
+
+.notification-item {
+	display: flex;
+	justify-content: flex-end;
+	flex: 1;
+}
+
+.notification-items-container li:last-child {
+	justify-content: flex-start;
+}
+
+.notification-box-icon {
+	/* padding-top: 5px;
+	margin-right: 9px; */
+	width: 18px;
+	height: 18px;
 }
 
 /* Main__Widgets and Buttons */

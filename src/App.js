@@ -2,6 +2,7 @@ import './App.css';
 import Sidebar from './components/Navigation/Sidebar';
 import SearchBarContainer from './components/Navigation/SearchBarContainer';
 import WidgetsBarContainer from './components/Navigation/WidgetsBarContainer';
+import ProjectsGrid from './components/Grids/ProjectsGrid';
 
 function App() {
 	return (
@@ -19,25 +20,7 @@ function App() {
 
 					<div className="main-content">
 						<div className="content-layout">
-							<div className="layout-grid">
-								<h3 className="grid-heading">Your Projects</h3>
-								<div className="grid-items">
-									<div className="grid-item-card">
-										<div>
-											<h4 className="card-heading">Super Cool Project</h4>
-											<p>
-												Lorem ipsum dolor sit amet consectetur adipisicing elit.
-												Maxime mollitia, molestiae quas vel sint commodi.
-											</p>
-										</div>
-									</div>
-									<div className="grid-item-card"></div>
-									<div className="grid-item-card"></div>
-									<div className="grid-item-card"></div>
-									<div className="grid-item-card"></div>
-									<div className="grid-item-card"></div>
-								</div>
-							</div>
+							<ProjectsGrid />
 							<aside className="layout-aside">
 								<h3 className="aside-heading">Announcements</h3>
 								<h3 className="aside-heading">Trending</h3>

@@ -8,7 +8,7 @@ Link => https://app.logo.com/dashboard/logo_f1c8dde2-d490-405e-a5cc-b907e6e25a40
 3. Set design colors for font and bg `Done`
 4. font color for links `Done`
 5. Convert to links `Done`
-# Navbar
+# Navbar `Done`
 - Todo
 1. Needs a box shadow only on the bottom border
 2. bg light 
@@ -18,7 +18,9 @@ Link => https://app.logo.com/dashboard/logo_f1c8dde2-d490-405e-a5cc-b907e6e25a40
 ## Main Grid
 ### Grid Card
 # Announcements and Trending
-# Scrollbars 
+# Scrollbars `Done`
 - Style scrollbars
 # Footer
 # Refactors
+1. Sidenav `Done`
+2. dash nav `Done`

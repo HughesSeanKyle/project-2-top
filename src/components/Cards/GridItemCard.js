@@ -11,21 +11,15 @@ function GridCardItem({ heading }) {
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
 						mollitia, molestiae quas vel sint commodi.
 					</p>
-					<ul
-						style={{
-							display: 'flex',
-							justifyContent: 'flex-end',
-							marginTop: '27px',
-						}}
-					>
-						<li style={{ marginRight: '18px' }}>
+					<ul className="card-items">
+						<li className="card-item">
 							<FaRegStar />
 						</li>
-						<li style={{ marginRight: '18px', marginTop: '2px' }}>
+						<li className="card-item" style={{ marginTop: '2px' }}>
 							{' '}
 							<FaRegEye />
 						</li>
-						<li style={{ marginRight: '18px' }}>
+						<li className="card-item">
 							<FaShareAlt />
 						</li>
 					</ul>

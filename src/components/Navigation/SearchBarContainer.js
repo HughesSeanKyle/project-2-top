@@ -11,7 +11,7 @@ function SearchBarContainer() {
 						<input
 							className="search-input"
 							type="text"
-							placeholder="Search..."
+							// placeholder="Search..."
 						/>
 					</div>
 				</div>

@@ -69,14 +69,13 @@
 	display: flex;
 	flex-direction: column;
 	flex: 3.5;
-	background-color: green;
-	border: 15px solid purple;
 }
 
 .main-nav {
-	flex: 1.5;
-	background-color: gray;
-	border: 15px solid cyan;
+	flex: 0;
+	background-color: var(--light-text-color);
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+		rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 .nav-container {
@@ -93,7 +92,6 @@
 	display: flex;
 	align-items: center;
 	flex: 1;
-	background-color: darkgoldenrod;
 	height: 27px;
 }
 
@@ -117,11 +115,12 @@
 	width: 88%;
 	height: 36px;
 	border-radius: 18px;
+	border: none;
+	background-color: var(--light-gray);
 }
 
 .notifications-box {
 	flex: 1.7;
-	background-color: darkblue;
 	height: 100%;
 }
 
@@ -148,12 +147,10 @@
 	display: flex;
 	align-items: center;
 	flex: 1;
-	background-color: crimson;
 	height: 27px;
 }
 
 .profile-info-box {
-	background-color: red;
 	height: 100%;
 	flex: 2.1;
 	display: flex;
@@ -166,7 +163,6 @@
 }
 
 .action-btns-box {
-	background-color: blue;
 	height: 100%;
 	flex: 1.9;
 	/* display: flex; */
@@ -187,18 +183,24 @@
 .button-list > li > button {
 	height: 36px;
 	width: 108px;
-	margin-right: 27px;
+	margin-right: 36px;
 	background-color: var(--light-blue);
 	border: none;
 	border-radius: 15px;
 	color: var(--light-text-color);
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.button-list > li > button:hover {
+	opacity: 0.81;
 }
 
 .main-content {
 	flex: 3;
 	background-color: yellow;
-	border: 15px solid yellowgreen;
-	max-height: 396px;
+	/* border: 15px solid yellowgreen; */
+	max-height: 100vh;
 	overflow: auto;
 }
 
@@ -248,7 +250,7 @@
 	width: 9px;
 }
 ::-webkit-scrollbar-track {
-	background: #f1f1f1;
+	background: var(--light-gray);
 }
 ::-webkit-scrollbar-thumb {
 	background: #888;

@@ -21,8 +21,26 @@ function App() {
 										'background-color': 'red',
 										height: '100%',
 										flex: '2.1',
+										display: 'flex',
+										alignItems: 'center',
+										justifyItems: 'flex-start',
 									}}
-								></div>
+								>
+									<img
+										src="./niftyswap-assets/nft-one-prim-no-bg-trimmy.png"
+										alt="profile-pic"
+										width="81px"
+										height="81px"
+										className="user-profile-pic"
+										style={{
+											margin: '9px 27px 9px 3px',
+										}}
+									/>
+									<div className="user-info">
+										<p>Hi there,</p>
+										<h3>Morgan Oakley (@morgan)</h3>
+									</div>
+								</div>
 								<div
 									class="action-btns-box"
 									style={{

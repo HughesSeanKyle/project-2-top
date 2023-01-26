@@ -16,6 +16,7 @@ Link => https://app.logo.com/dashboard/logo_f1c8dde2-d490-405e-a5cc-b907e6e25a40
 
 # Main
 ## Main Grid
+1. Replace border with padding 
 ### Grid Card
 # Announcements and Trending
 # Scrollbars `Done`

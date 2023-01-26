@@ -150,6 +150,7 @@
 	align-items: center;
 	flex: 1;
 	height: 27px;
+	padding-bottom: 18px;
 }
 
 .profile-info-box {
@@ -252,10 +253,10 @@
 	width: 9px;
 }
 ::-webkit-scrollbar-track {
-	background: var(--light-gray);
+	background: var(--light-text-color);
 }
 ::-webkit-scrollbar-thumb {
-	background: #888;
+	background: var(--light-gray);
 	border-radius: 90px;
 }
 ::-webkit-scrollbar-thumb:hover {

@@ -8,8 +8,6 @@ function App() {
 		<>
 			<div className="dashboard-container">
 				<Sidebar />
-
-				{/* Main consists of two child comps. Main to be refacored and child comps as well */}
 				<main className="dashboard-main">
 					{/* Search bar to own comp,  */}
 					<div className="main-nav">
@@ -22,14 +20,17 @@ function App() {
 					<div className="main-content">
 						<div className="content-layout">
 							<div className="layout-grid">
-								<h3 className="grid-heading">Your Swaps</h3>
-								<div
-									className="grid-items"
-									// style={{ height: '720px', 'background-color': 'pink' }}
-								>
-									{/* The cards in this div should have it's own comp. It will be mapped, and should be resusable */}
-
-									<div className="grid-item-card"></div>
+								<h3 className="grid-heading">Your Projects</h3>
+								<div className="grid-items">
+									<div className="grid-item-card">
+										<div>
+											<h4 className="card-heading">Super Cool Project</h4>
+											<p>
+												Lorem ipsum dolor sit amet consectetur adipisicing elit.
+												Maxime mollitia, molestiae quas vel sint commodi.
+											</p>
+										</div>
+									</div>
 									<div className="grid-item-card"></div>
 									<div className="grid-item-card"></div>
 									<div className="grid-item-card"></div>
@@ -44,7 +45,7 @@ function App() {
 						</div>
 					</div>
 
-					{/* Branch to be created for footer. Refactored and to own comp */}
+					{/* Branch to be created for footer. Refactor and to own comp */}
 					{/* <footer className="dashboard-footer">
 						<p>Copyright © 2023</p>
 					</footer> */}

@@ -31,13 +31,13 @@ function App() {
 								<div class="action-btns-box">
 									<ul class="button-list">
 										<li>
-											<button>Button 1</button>
+											<button>New</button>
 										</li>
 										<li>
-											<button>Button 2</button>
+											<button>Upload</button>
 										</li>
 										<li>
-											<button>Button 3</button>
+											<button>Share</button>
 										</li>
 									</ul>
 								</div>

@@ -155,7 +155,7 @@
 .profile-info-box {
 	background-color: red;
 	height: 100%;
-	flex: 2.8;
+	flex: 2.1;
 	display: flex;
 	align-items: center;
 	justify-items: flex-start;
@@ -168,7 +168,7 @@
 .action-btns-box {
 	background-color: blue;
 	height: 100%;
-	flex: 1.2;
+	flex: 1.9;
 	/* display: flex; */
 }
 
@@ -182,6 +182,16 @@
 	padding: 0;
 	height: 100%;
 	width: 70%;
+}
+
+.button-list > li > button {
+	height: 36px;
+	width: 108px;
+	margin-right: 27px;
+	background-color: var(--light-blue);
+	border: none;
+	border-radius: 15px;
+	color: var(--light-text-color);
 }
 
 .main-content {

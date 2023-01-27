@@ -25,3 +25,9 @@ Link => https://app.logo.com/dashboard/logo_f1c8dde2-d490-405e-a5cc-b907e6e25a40
 # Refactors
 1. Sidenav `Done`
 2. dash nav `Done`
+
+<!-- Uninstall Autoprefixer -->
+Delete override
+Delete Config 
+Reset Package.json
+Deploy 

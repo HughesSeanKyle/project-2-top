@@ -1,6 +1,6 @@
 # Project details 
 
-This is based off a design on the odin project found (here)[`https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-admin-dashboard`]
+This is based off a design on the odin project found [here](`https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-admin-dashboard`)
 
 
 ## Still to implement
